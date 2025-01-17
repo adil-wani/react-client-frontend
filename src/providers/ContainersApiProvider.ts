@@ -103,7 +103,8 @@ export class ContainersApiProvider {
     }
 
     private _url(endpoint: string): string {
-        return `${this.apiUrl}${endpoint}`;
+        return this.apiUrl ? `${this.apiUrl}${endpoint}` : `/api/${endpoint}`;
     }
+    
 
 }
