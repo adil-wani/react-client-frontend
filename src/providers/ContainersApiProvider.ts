@@ -4,7 +4,7 @@ import * as Scopes from '../common/Scopes';
 import { CustomAppApiAuthProvider } from './CustomAppApiAuthProvider';
 
 export class ContainersApiProvider {
-    public readonly apiUrl: string = process.env.REACT_APP_SAMPLE_API_URL || 'http://localhost:7071/api';
+    public readonly apiUrl: string = process.env.REACT_APP_SAMPLE_API_URL || '';
     public readonly apiScope: string = Scopes.SAMPLE_API_CONTAINER_MANAGE;
 
     public static readonly instance: ContainersApiProvider = new ContainersApiProvider();

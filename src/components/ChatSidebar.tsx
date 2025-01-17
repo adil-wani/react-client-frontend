@@ -6,12 +6,6 @@ import { ChatEmbedded, ChatEmbeddedAPI, ChatLaunchConfig } from '@microsoft/shar
 
 export const ChatSidebar: React.FunctionComponent = () => {
 
-    return (<>
-
-    </>);
-}
-
-/*
     const [chatAuthProvider, setChatAuthProvider] = React.useState<ChatAuthProvider | undefined>();
     
     const [chatConfig] = React.useState<ChatLaunchConfig>({
@@ -40,4 +34,5 @@ export const ChatSidebar: React.FunctionComponent = () => {
         />
     )}
     </>);
-*/
+}
+

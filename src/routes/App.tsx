@@ -67,7 +67,7 @@ function App() {
   const mainContentRef = React.useRef(null);
   const loginRef = React.useRef(null);
 
-  const [showSidebar, setShowSidebar] = useState<boolean>(false);
+  const [showSidebar, setShowSidebar] = useState<boolean>(true);
   const sidebarRef = React.useRef<HTMLDivElement | null>(null);
   const sidebarResizerRef = React.useRef(null);
 
