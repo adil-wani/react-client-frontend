@@ -5,7 +5,7 @@ import { useState } from "react";
 import { Spinner } from "@microsoft/mgt-react";
 import { ChatController } from "../providers/ChatController";
 import { ContainersApiProvider } from "../providers/ContainersApiProvider";
-import { IContainer, IContainerClientCreateRequest } from "../../../common/schemas/ContainerSchemas";
+import { IContainer, IContainerClientCreateRequest } from '../common/ContainerSchemas';
 
 export async function loader({ params }: ILoaderParams): Promise<IContainer[]> {
     const containersLite = await ContainersApiProvider.instance.list();

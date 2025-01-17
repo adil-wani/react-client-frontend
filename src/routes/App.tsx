@@ -35,7 +35,7 @@ import {
 import './App.css';
 import * as Constants from '../common/Constants';
 import { ContainerSelector } from '../components/ContainerSelector';
-import { IContainer } from '../../../common/schemas/ContainerSchemas';
+import { IContainer } from '../common/ContainerSchemas';
 import { CreateContainerButton } from '../components/CreateContainerButton';
 import { Outlet } from 'react-router-dom';
 import { ChatSidebar } from '../components/ChatSidebar';

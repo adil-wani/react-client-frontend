@@ -1,5 +1,5 @@
 import { Button, Dialog, DialogActions, DialogBody, DialogContent, DialogSurface, DialogTitle, Input, InputOnChangeData, InputProps, Label, Spinner, makeStyles } from "@fluentui/react-components";
-import { IContainer } from "../../../common/schemas/ContainerSchemas";
+import { IContainer } from '../common/ContainerSchemas';
 import { useEffect, useState } from "react";
 import { ContainersApiProvider } from "../providers/ContainersApiProvider";
 import { Settings20Filled } from "@fluentui/react-icons";

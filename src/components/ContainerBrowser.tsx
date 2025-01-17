@@ -22,7 +22,7 @@ import {
     Checkmark16Filled,
     Open20Filled,
 } from '@fluentui/react-icons';
-import { IContainer } from '../../../common/schemas/ContainerSchemas';
+import { IContainer } from '../common/ContainerSchemas';
 import { ContainersApiProvider } from '../providers/ContainersApiProvider';
 import { IDriveItem } from '../common/FileSchemas';
 import { GraphProvider } from '../providers/GraphProvider';

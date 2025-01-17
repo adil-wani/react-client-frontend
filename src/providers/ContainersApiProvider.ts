@@ -1,5 +1,5 @@
 
-import { IContainer, IContainerClientCreateRequest, IContainerUpdateRequest } from '../../../common/schemas/ContainerSchemas';
+import { IContainer, IContainerClientCreateRequest, IContainerUpdateRequest } from '../common/ContainerSchemas';
 import * as Scopes from '../common/Scopes';
 import { CustomAppApiAuthProvider } from './CustomAppApiAuthProvider';
 

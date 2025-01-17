@@ -6,7 +6,7 @@ import {
     IconStyle, 
     IThemeOptions 
 } from '@microsoft/sharepointembedded-copilotchat-react';
-import { IContainer } from "../../../common/schemas/ContainerSchemas";
+import { IContainer } from "../common/ContainerSchemas";
 
 export class ChatController {
     public static readonly instance = new ChatController();

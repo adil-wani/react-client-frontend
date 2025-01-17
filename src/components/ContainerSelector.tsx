@@ -8,7 +8,7 @@ import {
     makeStyles,
     useId
 } from '@fluentui/react-components';
-import { IContainer } from '../../../common/schemas/ContainerSchemas';
+import { IContainer } from '../common/ContainerSchemas';
 import { ContainersApiProvider } from '../providers/ContainersApiProvider';
 
 const containersApi = ContainersApiProvider.instance;

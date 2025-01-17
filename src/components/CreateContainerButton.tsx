@@ -18,7 +18,7 @@ import {
 import {
     Add32Regular
   } from '@fluentui/react-icons';
-import { IContainer, IContainerClientCreateRequest } from '../../../common/schemas/ContainerSchemas';
+import { IContainer, IContainerClientCreateRequest } from '../common/ContainerSchemas';
 import { ContainersApiProvider } from '../providers/ContainersApiProvider';
 
 const containersApi = ContainersApiProvider.instance;
