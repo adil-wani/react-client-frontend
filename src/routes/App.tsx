@@ -114,11 +114,11 @@ function App() {
         <div className="spe-app-header">
           <div className="spe-app-header-title">
             <Text size={700} weight='semibold'>
-              SharePoint Embedded Prrof of Concept
+              SharePoint Embedded with Co-pilot- POC
             </Text>
             <br />
             <Text size={300}>
-              Welcome to the SharePoint Embedded Proof of Concept App
+              Integrating Co-pilot with SPE
             </Text>
           </div>
           <div className="spe-app-header-search" style={{ display: 'none' }}>
